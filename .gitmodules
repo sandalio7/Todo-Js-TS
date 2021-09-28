@@ -1,0 +1,3 @@
+[submodule "reloj17i"]
+	path = reloj17i
+	url = https://github.com/earias08/relojc17i.git
