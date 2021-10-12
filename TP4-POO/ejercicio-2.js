@@ -21,11 +21,12 @@ class cuenta {
 
     ingresar(monto) {
         this.saldo = monto + this.saldo
-        // console.log(monto)
+        console.log(this.saldo)
     }
 
     extraer(cantidad) {
         this.saldo = this.saldo - cantidad
+        console.log(this.saldo)
     }
 
     informar() {

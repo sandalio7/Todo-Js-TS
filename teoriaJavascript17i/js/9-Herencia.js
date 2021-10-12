@@ -80,19 +80,19 @@ mostrarDatos(){
 }
 
 let lily = new Persona("lili", "Cerda", 33444555, "lcerda", "hdjfh23", "17i");
-lily.mostrarDatos();
+// lily.mostrarDatos();
 
-document.write("<br>Usuario: " + lily.mostrarUsuario);
+// document.write("<br>Usuario: " + lily.mostrarUsuario);
 
 // usar el setter
-let otroDni = 35467666;
 
-lily.modificarDni = otroDni;
+
+lily.modificarDni = 35467666;
 lily.mostrarDatos();
 
 let jonathan = new Alumno('Jonathan','Singh',33444666,'jsingh','shdjk222','17i',1234,'Fullstack');
 
-jonathan.mostrarDatos();
+// jonathan.mostrarDatos();
 
 
 
